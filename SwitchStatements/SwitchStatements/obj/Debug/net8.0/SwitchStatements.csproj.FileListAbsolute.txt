@@ -1,0 +1,14 @@
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\bin\Debug\net8.0\SwitchStatements.exe
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\bin\Debug\net8.0\SwitchStatements.deps.json
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\bin\Debug\net8.0\SwitchStatements.runtimeconfig.json
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\bin\Debug\net8.0\SwitchStatements.dll
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\bin\Debug\net8.0\SwitchStatements.pdb
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.GeneratedMSBuildEditorConfig.editorconfig
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.AssemblyInfoInputs.cache
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.AssemblyInfo.cs
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.csproj.CoreCompileInputs.cache
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.dll
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\refint\SwitchStatements.dll
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.pdb
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.genruntimeconfig.cache
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\ref\SwitchStatements.dll
