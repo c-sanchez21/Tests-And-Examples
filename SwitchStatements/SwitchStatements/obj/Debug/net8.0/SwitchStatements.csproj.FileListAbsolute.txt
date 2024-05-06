@@ -12,3 +12,4 @@ X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debu
 X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.pdb
 X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.genruntimeconfig.cache
 X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\ref\SwitchStatements.dll
+X:\Z\05CMP\PRG\GIT\Tests And Examples\SwitchStatements\SwitchStatements\obj\Debug\net8.0\SwitchStatements.sourcelink.json
