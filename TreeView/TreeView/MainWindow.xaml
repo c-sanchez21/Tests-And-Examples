@@ -41,7 +41,7 @@
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="{Binding Name}"/>
                                 <TextBlock Text="  (" Foreground="Aqua"/>
-                                <TextBlock Text="{Binding SubNodes.Count}" Foreground="Aqua"/>
+                                <TextBlock Text="{Binding TotalSubNodesCount}" Foreground="Aqua"/>
                                 <TextBlock Text=")" Foreground="Aqua"/>
                             </StackPanel>
                         </HierarchicalDataTemplate>
