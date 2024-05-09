@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\TreeView\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7AE54939-4A5A-43A5-85B2-C3AD45301EEF}|TreeView\\TreeView.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\treeview\\treeview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7AE54939-4A5A-43A5-85B2-C3AD45301EEF}|TreeView\\TreeView.csproj|solutionrelative:treeview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AE54939-4A5A-43A5-85B2-C3AD45301EEF}|TreeView\\TreeView.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\treeview\\treeview\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AE54939-4A5A-43A5-85B2-C3AD45301EEF}|TreeView\\TreeView.csproj|solutionrelative:treeview\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AE54939-4A5A-43A5-85B2-C3AD45301EEF}|TreeView\\TreeView.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\treeview\\treeview\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{7AE54939-4A5A-43A5-85B2-C3AD45301EEF}|TreeView\\TreeView.csproj|solutionrelative:treeview\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE54939-4A5A-43A5-85B2-C3AD45301EEF}|TreeView\\TreeView.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\treeview\\treeview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7AE54939-4A5A-43A5-85B2-C3AD45301EEF}|TreeView\\TreeView.csproj|solutionrelative:treeview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Node.cs",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\TreeView\\TreeView\\Node.cs",
               "RelativeDocumentMoniker": "TreeView\\Node.cs",
               "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\TreeView\\TreeView\\Node.cs",
               "RelativeToolTip": "TreeView\\Node.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T20:31:12.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\TreeView\\TreeView\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TreeView\\MainWindow.xaml.cs",
@@ -55,12 +55,11 @@
               "RelativeToolTip": "TreeView\\MainWindow.xaml.cs",
               "ViewState": "AQIAABcAAAAAAAAAAADgvzQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T19:40:31.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T19:40:31.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\TreeView\\TreeView\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TreeView\\MainWindow.xaml",

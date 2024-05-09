@@ -38,7 +38,12 @@
                 <TreeView x:Name="tvNodes" ItemsSource="{Binding Nodes}">
                     <TreeView.Resources>
                         <HierarchicalDataTemplate DataType="{x:Type local:Node}" ItemsSource="{Binding SubNodes}">
-                            <TextBlock Text="{Binding Name}"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Name}"/>
+                                <TextBlock Text="  (" Foreground="Aqua"/>
+                                <TextBlock Text="{Binding SubNodes.Count}" Foreground="Aqua"/>
+                                <TextBlock Text=")" Foreground="Aqua"/>
+                            </StackPanel>
                         </HierarchicalDataTemplate>
                     </TreeView.Resources>
                 </TreeView>
