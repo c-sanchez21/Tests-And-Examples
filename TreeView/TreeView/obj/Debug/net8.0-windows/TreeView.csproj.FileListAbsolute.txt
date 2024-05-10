@@ -5,6 +5,7 @@ X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\bin\Debug\net8.0-windows
 X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\bin\Debug\net8.0-windows\TreeView.pdb
 X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\MainWindow.g.cs
 X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\App.g.cs
+X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\TreeView_MarkupCompile.cache
 X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\TreeView_MarkupCompile.lref
 X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\MainWindow.baml
@@ -19,4 +20,3 @@ X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows
 X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\TreeView.pdb
 X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\TreeView.genruntimeconfig.cache
 X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\ref\TreeView.dll
-X:\Z\05CMP\PRG\GIT\Tests And Examples\TreeView\TreeView\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

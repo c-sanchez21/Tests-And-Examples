@@ -15,9 +15,15 @@ namespace TreeView
         public Node()
         {
             SubNodes.CollectionChanged += SubNodes_CollectionChanged;
-        }        
+        }
 
-        public string Name { get; set; }
+        private string name;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; OnPropertyChanged(); }
+        }
+            
 
         //NOTE: SubNodes must be an ObservableCollection to be able to display real time changes.        
         public ObservableCollection<Node> SubNodes { get; set; } = new ObservableCollection<Node>();

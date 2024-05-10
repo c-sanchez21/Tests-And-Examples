@@ -45,13 +45,20 @@ namespace TreeView
         {
             if (Nodes == null) return;
 
+            Node n = tvNodes.SelectedItem as Node;
+            if (n == null) return; 
+            n.SubNodes.Add(new Node() { Name = txtName.Text });
+
+            /*
             if (Nodes.Count > 0)
             {
                 Node sub = Nodes[Nodes.Count - 1];
                 sub.SubNodes.Add(new Node() { Name = $"Child {sub.SubNodes.Count + 1}" });
+                sub.Name += "(Added Noded)";
             }
                                                         
             Nodes.Add(new Node() { Name= $"Root {Nodes.Count+1}"});
+            */
         }
     }
 }

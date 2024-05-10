@@ -24,6 +24,8 @@
         <StackPanel>
             <Label Grid.Row="0" HorizontalAlignment="Center" FontWeight="ExtraBold" FontSize="16" Foreground="White">WPF TreeView Test</Label>
             <StackPanel Orientation="Horizontal">
+                <Label Foreground="White">Name:</Label>
+                <TextBox Name="txtName" Margin="5 5 5 5" MinWidth="75"/>
                 <Button Name="btnAddChildren" Margin="5 5 5 5" MinWidth="100" Click="btnAddChildren_Click">Add Child Test</Button>
             </StackPanel>
         </StackPanel>
