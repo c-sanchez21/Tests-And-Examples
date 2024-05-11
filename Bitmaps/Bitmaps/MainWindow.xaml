@@ -1,0 +1,40 @@
+﻿<Window x:Class="Bitmaps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bitmaps"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open" Click="MenuItem_OpenClick"/>
+            </MenuItem>
+            <MenuItem Header="_Edit" IsEnabled="False"/>
+            <MenuItem Header="_View" IsEnabled="False"/>
+        </Menu>
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".5*"/>
+                <ColumnDefinition Width=".5*"/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="imgViewer" Grid.Column="0"/>
+            <StackPanel Grid.Column="1" CanHorizontallyScroll="True">
+                <!-- <Label Name="lblImgData" Content="Image Data"/> -->
+                <Glyphs 
+                    Name="glyphImageData"
+                    FontUri = "C:\WINDOWS\Fonts\ARIAL.TTF"
+                    FontRenderingEmSize = "12"
+                    StyleSimulations    = "BoldSimulation"
+                    UnicodeString       = "Image Data"
+                    Fill                = "Black"
+                    OriginX = "0"
+                    OriginY = "25"
+                    />
+                <TextBlock Grid.Column="1" x:Name="tbImageData" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+            </StackPanel>
+            <RichTextBox Grid.Column="1" x:Name="rtbImageData" VerticalScrollBarVisibility="Visible"/>
+        </Grid>
+    </DockPanel>
+</Window>
