@@ -27,7 +27,7 @@ namespace Bitmaps
             bool? result = openFileDialog.ShowDialog();
             if(result == true)
             {
-                string fullpath = openFileDialog.FileName;
+                string fullpath = openFileDialog.FileName;                
                 BitmapImage bitmap = new BitmapImage();
                 bitmap.BeginInit();
                 bitmap.UriSource = new Uri(fullpath);
@@ -43,9 +43,13 @@ namespace Bitmaps
             byte[] pixels = new byte[(int)bmp.PixelHeight * stride];
             bmp.CopyPixels(pixels, stride, 0);
             string dataString = String.Join(" ", pixels);
+
+            //***Previous Tests***
             //glyphImageData.UnicodeString = dataString; //Crashes
             //lblImgData.Content = dataString; //No Wrapping
             //tbImageData.Text = dataString; //Very Slow
+
+            //Rich Text Box seems to work best in this situation.
             rtbImageData.Document.Blocks.Clear();
             rtbImageData.Document.Blocks.Add(new Paragraph(new Run(dataString)));
         }
