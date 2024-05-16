@@ -27,6 +27,7 @@ namespace UniformGrid
 
             DateTime date = DateTime.Today;
             DateTime firstOfMonth = new DateTime(date.Year, date.Month, 1);
+
             int dow = (int)firstOfMonth.DayOfWeek;
             for (int i = 0; i < dow; i++)
                 uniGrid.Children.Add(new Label());

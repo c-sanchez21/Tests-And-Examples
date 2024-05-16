@@ -46,7 +46,11 @@ namespace TreeView
             if (Nodes == null) return;
 
             Node n = tvNodes.SelectedItem as Node;
-            if (n == null) return; 
+            if (n == null)
+            {
+                MessageBox.Show("No node selected.");
+                return;
+            }
             n.SubNodes.Add(new Node() { Name = txtName.Text });
 
             /*
