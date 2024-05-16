@@ -24,12 +24,15 @@ namespace UniformGrid
 
         private void InitGrid()
         {
-            DateTime date = DateTime.Today;
-            for(int i = 1; i <=  DateTime.DaysInMonth(date.Year, date.Month); i++)
-            {
-                uniGrid.Children.Add(new Label() { Content = i.ToString() });
-            }
 
+            DateTime date = DateTime.Today;
+            DateTime firstOfMonth = new DateTime(date.Year, date.Month, 1);
+            int dow = (int)firstOfMonth.DayOfWeek;
+            for (int i = 0; i < dow; i++)
+                uniGrid.Children.Add(new Label());
+
+            for (int i = 1; i <=  DateTime.DaysInMonth(date.Year, date.Month); i++)
+                uniGrid.Children.Add(new Label() { Content = i.ToString() });                
         }
     }
 }
