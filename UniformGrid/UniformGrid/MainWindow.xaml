@@ -12,6 +12,25 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <UniformGrid Name="uniGrid" Columns="7" Rows="5"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".1*"/>
+            <RowDefinition Height=".9*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Day of Week Headers -->
+        <ListBox Grid.Row="0" ItemsSource="{Binding Days}" Background="Transparent">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="1" Columns="7"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Label Content="{Binding}" HorizontalContentAlignment="Center"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+            
+        </ListBox>
+        <UniformGrid Grid.Row="1" Name="uniGrid" Columns="7" Rows="5"/>
     </Grid>
 </Window>

@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Collections.ObjectModel;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,10 +17,13 @@ namespace UniformGrid
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public ObservableCollection<string> Days { get; set; } = new ObservableCollection<string>(new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" });
         public MainWindow()
         {
             InitializeComponent();
             InitGrid();
+            DataContext = this;
         }
 
         private void InitGrid()
