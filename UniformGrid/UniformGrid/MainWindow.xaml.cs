@@ -19,6 +19,13 @@ namespace UniformGrid
     {
 
         public ObservableCollection<string> Days { get; set; } = new ObservableCollection<string>(new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" });
+        public string Month
+        {
+            get
+            {
+                return DateTime.Now.ToString("MMMM");
+            }
+        }
         public MainWindow()
         {
             InitializeComponent();
