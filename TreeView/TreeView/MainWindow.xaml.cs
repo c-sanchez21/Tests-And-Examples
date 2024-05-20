@@ -28,7 +28,6 @@ namespace TreeView
 
         private void InitializeNodes()
         {
-            //Nodes = new ObservableCollection<Node>();
             Node root = new Node() { Name = "Root" };
             Node child1 = new Node() { Name = "Child A" };
             child1.SubNodes.Add(new Node() { Name = "Grandchild A1" });

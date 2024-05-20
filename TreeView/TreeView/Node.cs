@@ -11,19 +11,22 @@ namespace TreeView
 {
     public class Node : INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler? PropertyChanged;
-        public Node()
-        {
-            SubNodes.CollectionChanged += SubNodes_CollectionChanged;
-        }
 
+        #region Events
+        public event PropertyChangedEventHandler? PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string name = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
+        #endregion
+
+        #region Properties
         private string name;
         public string Name
         {
             get { return name; }
             set { name = value; OnPropertyChanged(); }
         }
-            
 
         //NOTE: SubNodes must be an ObservableCollection to be able to display real time changes.        
         public ObservableCollection<Node> SubNodes { get; set; } = new ObservableCollection<Node>();
@@ -37,20 +40,25 @@ namespace TreeView
                 return count;
             }
         }
+        #endregion
 
+        #region Constructors
+        public Node()
+        {
+            SubNodes.CollectionChanged += SubNodes_CollectionChanged;
+        }
+        #endregion
+
+        #region Methods
         private void SubNodes_CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
         {
             OnPropertyChanged("TotalSubNodesCount");            
-        }
-
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
         public override string ToString()
         {
             return Name;            
         }
+        #endregion
     }
 }
