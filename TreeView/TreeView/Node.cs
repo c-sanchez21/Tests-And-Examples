@@ -47,6 +47,11 @@ namespace TreeView
         {
             SubNodes.CollectionChanged += SubNodes_CollectionChanged;
         }
+        public Node(string name) :
+            this()
+        {
+            this.Name = name;
+        }
         #endregion
 
         #region Methods
