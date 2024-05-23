@@ -5,7 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UniformGrid"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="Black" Foreground="White">
+        Title="MainWindow" Height="450" Width="800" Foreground="White">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,0" StartPoint=".5,1">
+            <GradientStop Color="#FF171717" Offset="0"/>
+            <GradientStop Color="#FF040404" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Window.Resources>
         <Style TargetType="Label">
             <Setter Property="Foreground" Value="White"/>
@@ -20,7 +26,7 @@
                 
         <Label Grid.Row="0" Content="{Binding Month}" HorizontalContentAlignment="Center"/>
         <!-- Day of Week Headers -->                
-        <ListBox Grid.Row="1" ItemsSource="{Binding Days}" Background="Transparent">
+        <ListBox Grid.Row="1" ItemsSource="{Binding DayOfWeek}" Background="Transparent">
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
                     <UniformGrid Rows="1" Columns="7"/>
@@ -31,8 +37,20 @@
                     <Label Content="{Binding}" HorizontalContentAlignment="Center"/>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
-            
         </ListBox>
-        <UniformGrid Grid.Row="2" Name="uniGrid" Columns="7" Rows="5"/>
+        <!-- Days -->
+        <ListBox Grid.Row="2" ItemsSource="{Binding Days}" Background="Transparent">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="7" Columns="5"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Label Content="{Binding}" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ListBox>
+        <!--<UniformGrid Grid.Row="2" Name="uniGrid" Columns="7" Rows="5"/>-->
     </Grid>
 </Window>
