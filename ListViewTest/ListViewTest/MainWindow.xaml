@@ -1,0 +1,64 @@
+﻿<Window x:Class="ListViewTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListViewTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+
+        <!-- ListViewItem Style must be defined first so the following listview can reference it-->
+        <Style x:Key="lvItemPeopleStyle" TargetType="{x:Type ListViewItem}">
+            <Setter Property="Foreground" Value="Cyan"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Blue"/>
+                </Trigger>
+                <DataTrigger Binding="{Binding IsActive}" Value="False">
+                    <Setter Property="Background" Value="DarkGray"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- If key is not specified it will apply too all of the specified TargetType [ListViews]-->
+        <Style x:Key="lvPeopleStyle" TargetType="{x:Type ListView}">
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="ItemContainerStyle" Value="{StaticResource lvItemPeopleStyle}"/>
+            <Setter Property="View">
+                <Setter.Value>
+                    <GridView>
+                        <GridViewColumn DisplayMemberBinding="{Binding Name}">Name</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Age}">Age</GridViewColumn>
+                    </GridView>
+                </Setter.Value>
+            </Setter>
+        </Style>
+      
+    </Window.Resources>
+    <Grid>
+        <TabControl>
+            <TabControl.Resources>
+                <!-- A Static Resource is resolved and assigned during XAML loading and changes are ignored -->
+                <Style BasedOn="{StaticResource ResourceKey=lvPeopleStyle}" TargetType="{x:Type ListView}"/>
+            </TabControl.Resources>
+            <TabItem Header="Tab 1 - People">
+                <ContentControl>
+                    <ListView ItemsSource="{Binding People}">
+                    </ListView>
+                </ContentControl>
+            </TabItem>
+            <TabItem Header="Tab 2">
+                <ContentControl>
+                    <!-- <ListView></ListView>-->
+                </ContentControl>
+            </TabItem>
+            <TabItem Header="Tab 3">
+                <ContentControl>
+                    <!-- <ListView></ListView>-->
+                </ContentControl>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
