@@ -23,8 +23,10 @@
             <RowDefinition Height=".1*"/>
             <RowDefinition Height=".8*"/>
         </Grid.RowDefinitions>
-                
+        <!-- Month Label --> 
+        
         <Label Grid.Row="0" Content="{Binding Month}" HorizontalContentAlignment="Center"/>
+        
         <!-- Day of Week Headers -->                
         <ListBox Grid.Row="1" ItemsSource="{Binding DayOfWeek}" Background="Transparent">
             <ListBox.ItemsPanel>
@@ -38,6 +40,7 @@
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ListBox>
+        
         <!-- Days -->
         <ListBox Grid.Row="2" ItemsSource="{Binding Days}" Background="Transparent">
             <ListBox.ItemsPanel>
@@ -51,6 +54,6 @@
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ListBox>
-        <!--<UniformGrid Grid.Row="2" Name="uniGrid" Columns="7" Rows="5"/>-->
+        
     </Grid>
 </Window>
