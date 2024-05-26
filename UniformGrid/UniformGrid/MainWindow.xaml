@@ -42,7 +42,7 @@
         </ListBox>
         
         <!-- Days -->
-        <ListBox Grid.Row="2" ItemsSource="{Binding Days}" Background="Transparent">
+        <ListBox Grid.Row="2" ItemsSource="{Binding Days}" Background="Transparent" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" >
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
                     <UniformGrid Rows="7" Columns="5"/>
@@ -51,7 +51,7 @@
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <Viewbox>
-                        <Label Content="{Binding}" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"/>
+                        <Label Content="{Binding}" HorizontalContentAlignment="Center" VerticalContentAlignment="Top"/>
                     </Viewbox>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
