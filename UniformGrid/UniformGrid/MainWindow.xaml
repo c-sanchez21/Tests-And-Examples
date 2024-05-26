@@ -50,7 +50,9 @@
             </ListBox.ItemsPanel>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Label Content="{Binding}" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"/>
+                    <Viewbox>
+                        <Label Content="{Binding}" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"/>
+                    </Viewbox>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ListBox>
