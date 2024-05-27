@@ -51,7 +51,8 @@
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <Viewbox>
-                        <Label Content="{Binding}" HorizontalContentAlignment="Center" VerticalContentAlignment="Top"/>
+                        <TextBlock Foreground="White" Text="{Binding Date, Mode=TwoWay, TargetNullValue='', UpdateSourceTrigger=PropertyChanged, StringFormat=dd}"/>
+                        <!-- <Label Content="{Binding Date, Mode=TwoWay, TargetNullValue='', UpdateSourceTrigger=PropertyChanged, StringFormat=yyyy}" HorizontalContentAlignment="Center" VerticalContentAlignment="Top"/> -->
                     </Viewbox>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
