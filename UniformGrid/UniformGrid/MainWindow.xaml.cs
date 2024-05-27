@@ -25,7 +25,7 @@ namespace UniformGrid
         /// Day of the Week strings
         /// </summary>
         public ObservableCollection<string> DayOfWeek { get; set; } = new ObservableCollection<string>(new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" });
-        public ObservableCollection<string> Days { get; set; } = new ObservableCollection<string>();
+        public ObservableCollection<Day> Days { get; set; } = new ObservableCollection<Day>();
         public string Month
         {
             get
@@ -51,12 +51,12 @@ namespace UniformGrid
             DateTime firstOfMonth = new DateTime(date.Year, date.Month, 1);
             
             int dow = (int)firstOfMonth.DayOfWeek;
-            Days = new ObservableCollection<string>();
+            Days = new ObservableCollection<Day>();
             for (int i = 0; i < dow; i++)
-                Days.Add("");            
+                Days.Add(new Day());
 
-            for (int i = 1; i <= DateTime.DaysInMonth(date.Year, date.Month); i++)
-                Days.Add(i.ToString());                
+            for (int i = 0; i < DateTime.DaysInMonth(date.Year, date.Month); i++)
+                Days.Add(new Day(firstOfMonth.AddDays(i)));                
         }
         #endregion
     }
