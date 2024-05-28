@@ -36,7 +36,8 @@
             </ListBox.ItemsPanel>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Label Content="{Binding}" HorizontalContentAlignment="Center"/>
+                    <TextBlock Text="{Binding}" HorizontalAlignment="Center" Foreground="White"/>
+                    <!-- <Label Content="{Binding}" HorizontalContentAlignment="Center"/> -->
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ListBox>
@@ -45,13 +46,23 @@
         <ListBox Grid.Row="2" ItemsSource="{Binding Days}" Background="Transparent" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" >
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <UniformGrid Rows="7" Columns="5"/>
+                    <UniformGrid Rows="5" Columns="7"/>
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <Viewbox>
-                        <TextBlock Foreground="White" Text="{Binding Date, Mode=TwoWay, TargetNullValue='', UpdateSourceTrigger=PropertyChanged, StringFormat=dd}"/>
+                        <TextBlock Foreground="White" Text="{Binding Date, Mode=TwoWay, TargetNullValue='', UpdateSourceTrigger=PropertyChanged, StringFormat=dd}">
+                            <TextBlock.Style>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsToday}" Value="True">
+                                            <Setter Property="TextBlock.Background" Value="Blue"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
                         <!-- <Label Content="{Binding Date, Mode=TwoWay, TargetNullValue='', UpdateSourceTrigger=PropertyChanged, StringFormat=yyyy}" HorizontalContentAlignment="Center" VerticalContentAlignment="Top"/> -->
                     </Viewbox>
                 </DataTemplate>

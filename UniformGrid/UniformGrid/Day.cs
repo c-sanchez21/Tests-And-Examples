@@ -33,7 +33,7 @@ namespace UniformGrid
         }
         #endregion
 
-        #region Methods
+        #region Methods       
         /*
         public override string ToString()
         {            
