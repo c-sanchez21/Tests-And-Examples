@@ -61,7 +61,7 @@
                                             <Setter Property="TextBlock.Background">
                                                 <Setter.Value>
                                                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                                        <GradientStop Color="Blue"  Offset="0"/>
+                                                        <GradientStop Color="Blue"  Offset="0.5"/>
                                                         <GradientStop Color="Cyan"  Offset="1"/>
                                                     </LinearGradientBrush>
                                                 </Setter.Value>
@@ -71,7 +71,6 @@
                                 </Style>
                             </TextBlock.Style>
                         </TextBlock>
-                        <!-- <Label Content="{Binding Date, Mode=TwoWay, TargetNullValue='', UpdateSourceTrigger=PropertyChanged, StringFormat=yyyy}" HorizontalContentAlignment="Center" VerticalContentAlignment="Top"/> -->
                     </Viewbox>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>

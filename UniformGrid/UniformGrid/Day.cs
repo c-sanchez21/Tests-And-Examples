@@ -33,13 +33,7 @@ namespace UniformGrid
         }
         #endregion
 
-        #region Methods       
-        /*
-        public override string ToString()
-        {            
-            return Date?.ToString("dd");
-        }
-        */
+        #region Methods               
         #endregion
 
     }
