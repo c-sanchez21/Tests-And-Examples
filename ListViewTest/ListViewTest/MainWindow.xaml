@@ -16,7 +16,10 @@
                     <Setter Property="Background" Value="Blue"/>
                 </Trigger>
                 <DataTrigger Binding="{Binding IsActive}" Value="False">
-                    <Setter Property="Background" Value="DarkGray"/>
+                    <Setter Property="Background" Value="Red"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding IsSelected}" Value="True">
+                    <Setter Property="Background" Value="Yellow"/>
                 </DataTrigger>
             </Style.Triggers>
         </Style>
@@ -51,7 +54,7 @@
             </TabItem>
             <TabItem Header="Tab 2">
                 <ContentControl>
-                    <!-- <ListView></ListView>-->
+                    <TreeView/>
                 </ContentControl>
             </TabItem>
             <TabItem Header="Tab 3">
