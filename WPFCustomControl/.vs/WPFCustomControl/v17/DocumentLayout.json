@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C670C6E4-DC34-48CC-B875-88886AC230E9}|WPFCustomControl\\WPFCustomControl.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\wpfcustomcontrol\\wpfcustomcontrol\\customcontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C670C6E4-DC34-48CC-B875-88886AC230E9}|WPFCustomControl\\WPFCustomControl.csproj|solutionrelative:wpfcustomcontrol\\customcontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomControl1.cs",
+              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\CustomControl1.cs",
+              "RelativeDocumentMoniker": "WPFCustomControl\\CustomControl1.cs",
+              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\CustomControl1.cs",
+              "RelativeToolTip": "WPFCustomControl\\CustomControl1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T01:04:10.211Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8AEE97-0A67-4961-842F-836C6710B4D6}|..\\WPFCustomControl\\WPFCustomControl\\WPFCustomControl.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\wpfcustomcontrol\\wpfcustomcontrol\\themes\\generic.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A005E2-7DDC-4590-90D0-F002B403DE75}|CustomControlTest\\CustomControlTest.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\customcontroltest\\customcontroltest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07A005E2-7DDC-4590-90D0-F002B403DE75}|CustomControlTest\\CustomControlTest.csproj|solutionrelative:customcontroltest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A005E2-7DDC-4590-90D0-F002B403DE75}|CustomControlTest\\CustomControlTest.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\customcontroltest\\customcontroltest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A005E2-7DDC-4590-90D0-F002B403DE75}|CustomControlTest\\CustomControlTest.csproj|solutionrelative:customcontroltest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Generic.xaml",
+              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml",
+              "RelativeDocumentMoniker": "..\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml",
+              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml",
+              "RelativeToolTip": "..\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-03T01:10:11.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CustomControlTest\\MainWindow.xaml",
+              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\MainWindow.xaml",
+              "RelativeToolTip": "CustomControlTest\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-03T01:06:51.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CustomControlTest\\MainWindow.xaml.cs",
+              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CustomControlTest\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T01:06:49.86Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
