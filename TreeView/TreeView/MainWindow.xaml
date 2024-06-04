@@ -15,8 +15,13 @@
             <Setter Property="Foreground" Value="White"/>
         </Style>
     </Window.Resources>
-    
-    <Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File" IsEnabled="False"/>
+            <MenuItem Header="_Edit" IsEnabled="False"/>
+            <MenuItem Header="_View" IsEnabled="False"/>
+        </Menu>
+        <Grid DockPanel.Dock="Top">
         <Grid.RowDefinitions>
             <RowDefinition Height=".14*"/>
             <RowDefinition Height=".86*"/>
@@ -54,4 +59,5 @@
         </Grid>
         
     </Grid>
+    </DockPanel>
 </Window>
