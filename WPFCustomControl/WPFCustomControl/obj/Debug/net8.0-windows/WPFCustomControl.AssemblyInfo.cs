@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPFCustomControl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0fa83a0abd54915b7b5bb9ed4624ce0afb6918e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b92edd28377f82180cc4a674facc34d5d1b1fcfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPFCustomControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPFCustomControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
