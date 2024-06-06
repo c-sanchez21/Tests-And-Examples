@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "WpfCustomControlLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/WpfCustomControlLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfCustomControlLibrary.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WpfCustomControlLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../WpfCustomControlLibrary/WpfCustomControlLibrary/WpfCustomControlLibrary.csproj",
+      "msbuildProject": "../../WpfCustomControlLibrary/WpfCustomControlLibrary/WpfCustomControlLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "WpfCustomControlLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Z\\.nuget\\packages\\": {},
@@ -39,7 +61,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WpfCustomControlLibrary\\WpfCustomControlLibrary\\WpfCustomControlLibrary.csproj": {
+              "projectPath": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WpfCustomControlLibrary\\WpfCustomControlLibrary\\WpfCustomControlLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

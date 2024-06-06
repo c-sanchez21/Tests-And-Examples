@@ -1,0 +1,17 @@
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\bin\Debug\net8.0-windows\WpfCustomControlLibrary.deps.json
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\bin\Debug\net8.0-windows\WpfCustomControlLibrary.dll
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\bin\Debug\net8.0-windows\WpfCustomControlLibrary.pdb
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary.GeneratedMSBuildEditorConfig.editorconfig
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary.AssemblyInfoInputs.cache
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary.AssemblyInfo.cs
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary.csproj.CoreCompileInputs.cache
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary.sourcelink.json
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary.dll
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\refint\WpfCustomControlLibrary.dll
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary.pdb
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\ref\WpfCustomControlLibrary.dll
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary_MarkupCompile.cache
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary_MarkupCompile.lref
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\Themes\Generic.baml
+X:\Z\05CMP\PRG\GIT\Tests And Examples\WpfCustomControlLibrary\WpfCustomControlLibrary\obj\Debug\net8.0-windows\WpfCustomControlLibrary.g.resources

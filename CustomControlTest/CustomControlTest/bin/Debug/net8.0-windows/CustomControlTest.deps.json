@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CustomControlTest/1.0.0": {
+        "dependencies": {
+          "WpfCustomControlLibrary": "1.0.0"
+        },
+        "runtime": {
+          "CustomControlTest.dll": {}
+        }
+      },
+      "WpfCustomControlLibrary/1.0.0": {
+        "runtime": {
+          "WpfCustomControlLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomControlTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfCustomControlLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

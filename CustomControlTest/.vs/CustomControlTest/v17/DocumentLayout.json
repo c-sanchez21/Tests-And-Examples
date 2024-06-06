@@ -3,14 +3,22 @@
   "WorkspaceRootPath": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA8AEE97-0A67-4961-842F-836C6710B4D6}|..\\WPFCustomControl\\WPFCustomControl\\WPFCustomControl.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\wpfcustomcontrol\\wpfcustomcontrol\\mycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA8AEE97-0A67-4961-842F-836C6710B4D6}|..\\WPFCustomControl\\WPFCustomControl\\WPFCustomControl.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\wpfcustomcontrol\\wpfcustomcontrol\\themes\\generic.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\obj\\Debug\\net8.0-windows\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomControlTest\\obj\\Debug\\net8.0-windows\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07A005E2-7DDC-4590-90D0-F002B403DE75}|CustomControlTest\\CustomControlTest.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\customcontroltest\\customcontroltest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{07A005E2-7DDC-4590-90D0-F002B403DE75}|CustomControlTest\\CustomControlTest.csproj|solutionrelative:customcontroltest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A005E2-7DDC-4590-90D0-F002B403DE75}|CustomControlTest\\CustomControlTest.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\customcontroltest\\customcontroltest\\customcontroltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{07A005E2-7DDC-4590-90D0-F002B403DE75}|CustomControlTest\\CustomControlTest.csproj|solutionrelative:customcontroltest\\customcontroltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B934DCE-833E-45D5-A4CB-AD0D83905D08}|..\\WpfCustomControlLibrary\\WpfCustomControlLibrary\\WpfCustomControlLibrary.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\wpfcustomcontrollibrary\\wpfcustomcontrollibrary\\customcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07A005E2-7DDC-4590-90D0-F002B403DE75}|CustomControlTest\\CustomControlTest.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\customcontroltest\\customcontroltest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -24,37 +32,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyControl.cs",
-              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\MyControl.cs",
-              "RelativeDocumentMoniker": "..\\WPFCustomControl\\WPFCustomControl\\MyControl.cs",
-              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\MyControl.cs",
-              "RelativeToolTip": "..\\WPFCustomControl\\WPFCustomControl\\MyControl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "CustomControl.cs",
+              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WpfCustomControlLibrary\\WpfCustomControlLibrary\\CustomControl.cs",
+              "RelativeDocumentMoniker": "..\\WpfCustomControlLibrary\\WpfCustomControlLibrary\\CustomControl.cs",
+              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WpfCustomControlLibrary\\WpfCustomControlLibrary\\CustomControl.cs",
+              "RelativeToolTip": "..\\WpfCustomControlLibrary\\WpfCustomControlLibrary\\CustomControl.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T02:59:27.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Generic.xaml",
-              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml",
-              "RelativeDocumentMoniker": "..\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml",
-              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml",
-              "RelativeToolTip": "..\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-03T01:10:11.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T04:28:09.252Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CustomControlTest.csproj",
+              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\CustomControlTest.csproj",
+              "RelativeDocumentMoniker": "CustomControlTest\\CustomControlTest.csproj",
+              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\CustomControlTest.csproj",
+              "RelativeToolTip": "CustomControlTest\\CustomControlTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-06T04:26:51.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CustomControlTest\\MainWindow.xaml",
@@ -65,7 +71,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Generic.xaml.cs",
+              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml.cs",
+              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml.cs",
+              "RelativeToolTip": "..\\WPFCustomControl\\WPFCustomControl\\Themes\\Generic.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:17:53.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.g.cs",
+              "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\obj\\Debug\\net8.0-windows\\MainWindow.g.cs",
+              "RelativeDocumentMoniker": "CustomControlTest\\obj\\Debug\\net8.0-windows\\MainWindow.g.cs",
+              "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\obj\\Debug\\net8.0-windows\\MainWindow.g.cs",
+              "RelativeToolTip": "CustomControlTest\\obj\\Debug\\net8.0-windows\\MainWindow.g.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAtwCAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:16:04.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\CustomControlTest\\CustomControlTest\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CustomControlTest\\MainWindow.xaml.cs",
