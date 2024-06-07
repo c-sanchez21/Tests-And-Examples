@@ -30,13 +30,13 @@
     <AppXManifest Include="X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-06T15:29:12.150</Modified>
+      <Modified>2024-06-07T22:38:43.039</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-06T15:26:07.852</Modified>
+      <Modified>2024-06-07T22:38:42.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MAUIApp.runtimeconfig.json">
       <PackagePath>MAUIApp.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MAUIApp.dll">
       <PackagePath>MAUIApp.dll</PackagePath>
-      <Modified>2024-06-06T15:26:06.750</Modified>
+      <Modified>2024-06-07T22:38:41.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MAUIApp.exe</PackagePath>
-      <Modified>2024-06-06T15:26:06.763</Modified>
+      <Modified>2024-06-07T22:38:41.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MAUIApp.deps.json">
       <PackagePath>MAUIApp.deps.json</PackagePath>
-      <Modified>2024-06-06T15:26:07.513</Modified>
+      <Modified>2024-06-07T22:38:42.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Z\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

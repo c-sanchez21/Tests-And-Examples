@@ -14,8 +14,9 @@
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
             <Label
-                Text="Hello, World!"
+                Text="Hello, .NET MAUI!"
                 Style="{StaticResource Headline}"
+                FontSize="50"
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Label

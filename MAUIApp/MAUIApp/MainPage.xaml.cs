@@ -11,7 +11,7 @@
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
-            count++;
+            count += 10;
 
             if (count == 1)
                 CounterBtn.Text = $"Clicked {count} time";
@@ -21,5 +21,4 @@
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
-
 }
