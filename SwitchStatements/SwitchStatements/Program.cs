@@ -40,14 +40,13 @@ foreach(object obj in GetCustomTypes())
             Console.Write("A");
             break;
 
-            //This code becomes unreachable and will not compile.
+            //Case B after Case A becomes unreachable and will not compile.
             //It must precede Case A. 
             /*
         case B b: 
             Console.Write("B");
             break;
             */
-
 
         default:
             Console.Write(obj.GetType().FullName);
