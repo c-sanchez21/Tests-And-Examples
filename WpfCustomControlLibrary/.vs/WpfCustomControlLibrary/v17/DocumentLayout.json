@@ -39,15 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WpfCustomControlLibrary",
+              "Title": "WpfCustomControlLibrary.csproj",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WpfCustomControlLibrary\\WpfCustomControlLibrary\\WpfCustomControlLibrary.csproj",
               "RelativeDocumentMoniker": "WpfCustomControlLibrary\\WpfCustomControlLibrary.csproj",
               "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\WpfCustomControlLibrary\\WpfCustomControlLibrary\\WpfCustomControlLibrary.csproj",
               "RelativeToolTip": "WpfCustomControlLibrary\\WpfCustomControlLibrary.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-06T04:17:28.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T04:17:28.671Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "WpfCustomControlLibrary\\CustomControl.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T04:15:10.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T04:15:10.584Z"
             }
           ]
         }

@@ -14,7 +14,16 @@
                 <ControlTemplate TargetType="{x:Type myCustom:CustomControl}">
                     <DockPanel>
                         <Viewbox DockPanel.Dock="Top">
-                            <Label>Hello World</Label>
+                            <TextBlock Text="Hello World">
+                                <TextBlock.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                        <GradientStop Color="Yellow" Offset="0.0" />
+                                        <GradientStop Color="Red" Offset="0.25" />
+                                        <GradientStop Color="Blue" Offset="0.75" />
+                                        <GradientStop Color="LimeGreen" Offset="1.0" />
+                                    </LinearGradientBrush>
+                                </TextBlock.Background>
+                            </TextBlock>
                         </Viewbox>
                     </DockPanel>
                 </ControlTemplate>

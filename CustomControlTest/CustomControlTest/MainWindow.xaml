@@ -7,6 +7,14 @@
         xmlns:local="clr-namespace:CustomControlTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="LimeGreen" Offset="0.0" />
+            <GradientStop Color="Blue" Offset="0.25" />
+            <GradientStop Color="Red" Offset="0.75" />
+            <GradientStop Color="Yellow" Offset="1.0" />
+        </LinearGradientBrush>
+    </Window.Background>
     <StackPanel>
         <custom:CustomControl/>
     </StackPanel>
