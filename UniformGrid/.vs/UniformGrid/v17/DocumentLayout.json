@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\UniformGrid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8D2BE66-A50B-42D5-B50F-2F33146A6538}|UniformGrid\\UniformGrid.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\uniformgrid\\uniformgrid\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8D2BE66-A50B-42D5-B50F-2F33146A6538}|UniformGrid\\UniformGrid.csproj|solutionrelative:uniformgrid\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8D2BE66-A50B-42D5-B50F-2F33146A6538}|UniformGrid\\UniformGrid.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\uniformgrid\\uniformgrid\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A8D2BE66-A50B-42D5-B50F-2F33146A6538}|UniformGrid\\UniformGrid.csproj|solutionrelative:uniformgrid\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D2BE66-A50B-42D5-B50F-2F33146A6538}|UniformGrid\\UniformGrid.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\uniformgrid\\uniformgrid\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D2BE66-A50B-42D5-B50F-2F33146A6538}|UniformGrid\\UniformGrid.csproj|solutionrelative:uniformgrid\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8D2BE66-A50B-42D5-B50F-2F33146A6538}|UniformGrid\\UniformGrid.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\uniformgrid\\uniformgrid\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,17 +25,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Day.cs",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\UniformGrid\\UniformGrid\\Day.cs",
               "RelativeDocumentMoniker": "UniformGrid\\Day.cs",
               "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\UniformGrid\\UniformGrid\\Day.cs",
               "RelativeToolTip": "UniformGrid\\Day.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T05:40:01.807Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\UniformGrid\\UniformGrid\\MainWindow.xaml",
               "RelativeDocumentMoniker": "UniformGrid\\MainWindow.xaml",

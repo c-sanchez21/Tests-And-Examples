@@ -51,27 +51,29 @@
             </ListBox.ItemsPanel>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Viewbox>
-                        <TextBlock Foreground="White" Text="{Binding Date, Mode=TwoWay, TargetNullValue='', UpdateSourceTrigger=PropertyChanged, StringFormat=dd}">
-                            <TextBlock.Style>
-                                <Style TargetType="{x:Type TextBlock}">
-                                    <Style.Triggers>
-                                        <!-- IsToday data trigger-->
-                                        <DataTrigger Binding="{Binding IsToday}" Value="True">
-                                            <Setter Property="TextBlock.Background">
-                                                <Setter.Value>
-                                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                                        <GradientStop Color="Blue"  Offset="0.5"/>
-                                                        <GradientStop Color="Cyan"  Offset="1"/>
-                                                    </LinearGradientBrush>
-                                                </Setter.Value>
-                                            </Setter>
-                                        </DataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </TextBlock.Style>
-                        </TextBlock>
-                    </Viewbox>
+                    <Border BorderThickness="1" BorderBrush="White">
+                        <Viewbox>
+                            <TextBlock Foreground="White" Text="{Binding Date, Mode=TwoWay, TargetNullValue='', UpdateSourceTrigger=PropertyChanged, StringFormat=dd}">
+                                <TextBlock.Style>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Style.Triggers>
+                                            <!-- IsToday data trigger-->
+                                            <DataTrigger Binding="{Binding IsToday}" Value="True">
+                                                <Setter Property="TextBlock.Background">
+                                                    <Setter.Value>
+                                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                            <GradientStop Color="Blue"  Offset="0.5"/>
+                                                            <GradientStop Color="Cyan"  Offset="1"/>
+                                                        </LinearGradientBrush>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+                        </Viewbox>
+                    </Border>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ListBox>
