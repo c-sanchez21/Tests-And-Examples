@@ -16,6 +16,7 @@
                         <Viewbox DockPanel.Dock="Top">
                             <TextBlock Text="Hello World">
                                 <TextBlock.Background>
+                                    <!-- gradien brush added --> 
                                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                                         <GradientStop Color="Yellow" Offset="0.0" />
                                         <GradientStop Color="Red" Offset="0.25" />
