@@ -16,6 +16,7 @@
         </Style>
     </Window.Resources>
     <DockPanel>
+        <!-- File Mneu --> 
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File" IsEnabled="False"/>
             <MenuItem Header="_Edit" IsEnabled="False"/>

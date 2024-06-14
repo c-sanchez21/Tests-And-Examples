@@ -38,21 +38,19 @@
               "RelativeToolTip": "MAUIApp\\MauiProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T07:03:37.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T07:03:37.635Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MAUIApp",
+              "Title": "MAUIApp.csproj",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\MAUIApp\\MAUIApp\\MAUIApp.csproj",
               "RelativeDocumentMoniker": "MAUIApp\\MAUIApp.csproj",
               "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\MAUIApp\\MAUIApp\\MAUIApp.csproj",
               "RelativeToolTip": "MAUIApp\\MAUIApp.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-08T07:00:42.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T07:00:42.255Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "MAUIApp\\MainPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T22:46:59.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T22:46:59.396Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "MAUIApp\\MainPage.xaml",
               "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\MAUIApp\\MAUIApp\\MainPage.xaml",
               "RelativeToolTip": "MAUIApp\\MainPage.xaml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAeAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-07T22:41:11.316Z",
               "EditorCaption": ""
