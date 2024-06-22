@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfCustomControlLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11cfebfd97fd570a570c2166b2ba6ee61561c24f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7223523e32ae7af73dbfe52f3c20d1bc9adc2f2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfCustomControlLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfCustomControlLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
