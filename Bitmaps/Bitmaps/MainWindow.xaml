@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bitmaps"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="Black">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
@@ -20,6 +20,8 @@
                 <ColumnDefinition Width=".5*"/>
             </Grid.ColumnDefinitions>
             <Image x:Name="imgViewer" Grid.Column="0"/>
+            
+            <!-- Previous Tests -->
             <StackPanel Grid.Column="1" CanHorizontallyScroll="True">
                 <!-- <Label Name="lblImgData" Content="Image Data"/> -->
                 <Glyphs 
@@ -34,6 +36,8 @@
                     />
                 <TextBlock Grid.Column="1" x:Name="tbImageData" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
             </StackPanel>
+            
+            <!-- RichTextBox seems to works the best -->            
             <RichTextBox Grid.Column="1" x:Name="rtbImageData" VerticalScrollBarVisibility="Visible"/>
         </Grid>
     </DockPanel>
