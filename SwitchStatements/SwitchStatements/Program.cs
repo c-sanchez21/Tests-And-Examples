@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//Switch Statement on Types
+//A Switch Statement Test on Types
 
 using System.Runtime.CompilerServices;
 
