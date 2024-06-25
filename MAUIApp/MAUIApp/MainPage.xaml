@@ -34,7 +34,7 @@
                         <SwipeView.RightItems>
                             <SwipeItems>
                                 <SwipeItem Text="Delete"
-                                           BackgroundColor="Red"/>
+                                           BackgroundColor="Orange"/>
                             </SwipeItems>
                         </SwipeView.RightItems>
                         <Grid Padding="0,5">
