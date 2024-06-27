@@ -21,7 +21,7 @@ namespace MAUIApp.ViewModel
         [ObservableProperty]
         string text;
 
-        [ICommand]
+        //[ICommand]
         void Add()
         {
             Text = string.Empty;

@@ -1037,3 +1037,5 @@ X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\obj\Debug\net8.0-android\s
 X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
+X:\Z\05CMP\PRG\GIT\Tests And Examples\MAUIApp\MAUIApp\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.pdb
