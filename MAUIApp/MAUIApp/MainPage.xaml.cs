@@ -1,12 +1,14 @@
-﻿namespace MAUIApp
+﻿using MAUIApp.ViewModel;
+
+namespace MAUIApp
 {
     public partial class MainPage : ContentPage
-    {
-        int count = 0;
+    {        
 
-        public MainPage()
+        public MainPage(MainViewModel vm)
         {
             InitializeComponent();
+            BindingContext = vm;
         }
     }
 }
