@@ -20,6 +20,7 @@ namespace MAUIApp
     		builder.Logging.AddDebug();
 #endif
             builder.Services.AddSingleton<MainPage>();
+            //Add Singleton for the View Model
             builder.Services.AddSingleton<MainViewModel>();
             return builder.Build();
         }
