@@ -31,12 +31,12 @@
                         <SwipeView.RightItems>
                             <SwipeItems>
                                 <SwipeItem Text="Delete"
-                                           BackgroundColor="Orange"/>
+                                           BackgroundColor="Red"/>
                             </SwipeItems>
                         </SwipeView.RightItems>
                         <Grid Padding="0,5">
                             <Frame>
-                                <Label Text="{Binding}" FontSize="24"/>
+                                <Label Text="{Binding}" FontSize="21"/>
                             </Frame>
                         </Grid>
                     </SwipeView>

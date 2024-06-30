@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\MAUIApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2C861F3-ED5A-46A4-8C61-0D7332E03ECB}|MAUIApp\\MAUIApp.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\mauiapp\\mauiapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2C861F3-ED5A-46A4-8C61-0D7332E03ECB}|MAUIApp\\MAUIApp.csproj|solutionrelative:mauiapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C2C861F3-ED5A-46A4-8C61-0D7332E03ECB}|MAUIApp\\MAUIApp.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\mauiapp\\mauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C2C861F3-ED5A-46A4-8C61-0D7332E03ECB}|MAUIApp\\MAUIApp.csproj|solutionrelative:mauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2C861F3-ED5A-46A4-8C61-0D7332E03ECB}|MAUIApp\\MAUIApp.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\mauiapp\\mauiapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2C861F3-ED5A-46A4-8C61-0D7332E03ECB}|MAUIApp\\MAUIApp.csproj|solutionrelative:mauiapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C861F3-ED5A-46A4-8C61-0D7332E03ECB}|MAUIApp\\MAUIApp.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\mauiapp\\mauiapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C861F3-ED5A-46A4-8C61-0D7332E03ECB}|MAUIApp\\MAUIApp.csproj|solutionrelative:mauiapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2C861F3-ED5A-46A4-8C61-0D7332E03ECB}|MAUIApp\\MAUIApp.csproj|x:\\z\\05cmp\\prg\\git\\tests and examples\\mauiapp\\mauiapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,7 +43,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -104,13 +104,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\MAUIApp\\MAUIApp\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MAUIApp\\MauiProgram.cs",
               "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\MAUIApp\\MAUIApp\\MauiProgram.cs",
               "RelativeToolTip": "MAUIApp\\MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T07:03:37.635Z",
               "EditorCaption": ""
@@ -129,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\MAUIApp\\MAUIApp\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MAUIApp\\MainPage.xaml.cs",
@@ -142,13 +142,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\MAUIApp\\MAUIApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "MAUIApp\\MainPage.xaml",
               "ToolTip": "X:\\Z\\05CMP\\PRG\\GIT\\Tests And Examples\\MAUIApp\\MAUIApp\\MainPage.xaml",
               "RelativeToolTip": "MAUIApp\\MainPage.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAhAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-07T22:41:11.316Z",
               "EditorCaption": ""
