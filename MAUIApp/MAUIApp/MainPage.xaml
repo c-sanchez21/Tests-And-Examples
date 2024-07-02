@@ -14,10 +14,11 @@
         <Image Grid.ColumnSpan="2"
                Source="dotnet_bot.png"   
                BackgroundColor="Blue"/>
-        
+
+        <!-- DataContext is set to MainViewModel -->
         <Entry Placeholder="Enter Task"
-               Text="{Binding Text}"
-               Grid.Row="1"/>
+               Text="{Binding Text}" 
+        Grid.Row="1"/>
 
         <Button Text="Add"
                 Command="{Binding AddCommand}"
